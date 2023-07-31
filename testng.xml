@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="E2E UserPath" >
+        <classes>
+           <class name="test.CreateUser"/>
+            <class name="test.LoginTest"/>
+            <class name="test.ReadUserByUsername"/>
+            <class name="test.UpdateUserByUserName"/>
+            <class name="test.DeleteUserByUserName"/>
+        </classes>
+    </test>
+</suite>
